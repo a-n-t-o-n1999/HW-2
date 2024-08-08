@@ -29,12 +29,12 @@ public class Main {
         int studentSheets = totalSheetsOfPaper / (lyudmilaPavlovnaStudents + annaSergeevnaStudents + ekaterinaAndreevnaStudents);
         System.out.println("На каждого ученика рассчитано " + studentSheets + " листов бумаги");
         //task4
-        byte volume = 16;
-        byte workingHours = 2;
-        int productivityIn20Minutes = volume / workingHours * 20;
-        long productivityInday = volume / workingHours * 60 * 24;
-        long productivityIn3day = volume / workingHours * 60 * 24 * 3;
-        long productivityIn30day = volume / workingHours * 60 * 24 * 30;
+        float volume = 16;
+        float workingHours = 2;
+        float productivityIn20Minutes = volume / workingHours * 20;
+        float productivityInday = volume / workingHours * 60 * 24;
+        float productivityIn3day = volume / workingHours * 60 * 24 * 3;
+        float productivityIn30day = volume / workingHours * 60 * 24 * 30;
         System.out.println("За 20 минут машина произвела " + productivityIn20Minutes + " штук бутылок");
         System.out.println("За 1 день машина произвела " + productivityInday + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + productivityIn3day + " штук бутылок");
